@@ -229,6 +229,7 @@ pub const CATALOG: &[(&str, &str, &str, &str)] = &[
     ("review.spelling", "Review", "Proofing", "Spelling"),
     ("review.thesaurus", "Review", "Proofing", "Thesaurus"),
     ("review.workbookStatistics", "Review", "Proofing", "Workbook Statistics"),
+    ("review.compareFiles", "Review", "Compare", "Compare Files"),
     ("review.checkAccessibility", "Review", "Accessibility", "Check Accessibility"),
     ("review.smartLookup", "Review", "Insights", "Smart Lookup"),
     ("review.translate", "Review", "Language", "Translate"),

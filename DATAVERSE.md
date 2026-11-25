@@ -25,7 +25,7 @@ command line, runs its tests and attaches the program as `dataverse-grid-cli` (L
 
 | Commit | What | Offered upstream? |
 |---|---|---|
-| (none yet) | | |
+| review.compareFiles | Review › Compare Files: the open workbook against a revised copy, sheet by sheet and cell by cell (values and formulas), as a JSON report | not yet |
 
 ## Name
 

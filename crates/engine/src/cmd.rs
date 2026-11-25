@@ -2,6 +2,7 @@
 //! `data.sortAscending`) plus primitive editing commands (`cell.set`, `selection.set`).
 
 pub mod analysis;
+pub mod compare;
 pub mod controls;
 pub mod data;
 pub mod draw;
@@ -172,6 +173,7 @@ pub fn command_specs() -> &'static [CommandSpec] {
         v.extend(data::specs());
         v.extend(formulas::specs());
         v.extend(review::specs());
+        v.extend(compare::specs());
         v.extend(view::specs());
         v.extend(inspect::specs());
         v.extend(extra::specs());
